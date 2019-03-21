@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="EVENTS"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Events"
+            android:textSize="30dp"
+            android:textColor="#CCCCCC"
+            android:id="@+id/upcomingtextview"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_view"
+            android:textSize="20dp"
+            android:hint="Loading...."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDCCCCCC"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events in the past..."
+            android:textSize="30dp"
+            android:textColor="#CCCCCC"
+            android:id="@+id/eventsinpasttextview" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_view_2"
+            android:textSize="20dp"
+            android:hint="Loading...."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDCCCCCC"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
